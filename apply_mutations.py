@@ -56,26 +56,6 @@ protein_sequence = ("MSLVPATNYIYTPLNQLKGGTIVNVYGVVKFFKPPYLSKGTDYCSVVTIVDQTNVKLTC
                     "VRSGHEDLELLDLSAPFLIQGTIHHYGCKQCSSLRSIQNLNSLVDKTSWIPSSVAEALGIVPLQYVFVMTFTLDDGTG"
                     "VLEAYLMDSDKFFQIPASEVLMDDDLQKSVDMIMDMFCPPGIKIDAYPWLECFIKSYNVTNGTDNQICYQIFDTTVAEDVI")
 
-# List your mutations here (example mutations)
-#mutations = [
-#    "Q94H", 
-#    "Q94R",
-#    "W139C",
-#    "R137H",
-#    "Y89C",
-#    "Y36C",
-#    "M251L"
-#]
-
-# Apply each mutation individually and print the mutated sequence.
-#for mutation in mutations:
-#    mutated_sequence = apply_mutations(protein_sequence, [mutation])  # Note: passing a list containing only one mutation
-#    print(f"Mutated Sequence for mutation {mutation}:")
-#    print(mutated_sequence)
-#    print("-" * 50)  # Separator for better readability
-
-# List your mutations here (example mutations)
-# Read mutations from file
 mutations = []
 try:
     with open("output_file.txt", "r") as f:
